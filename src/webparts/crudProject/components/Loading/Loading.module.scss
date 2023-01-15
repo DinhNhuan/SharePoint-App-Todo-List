@@ -1,0 +1,18 @@
+.loading-spinner {
+  border: 5px solid #f3f3f3; /* Add a gray border */
+  border-top: 5px solid #3498db; /* Add a blue top border */
+  border-radius: 50%; /* Make the spinner rounded */
+  width: 50px; /* Set the width */
+  height: 50px; /* Set the height */
+  animation: spin 0.8s linear infinite; /* Animate the spinner */
+}
+
+/* Animation keyframes */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

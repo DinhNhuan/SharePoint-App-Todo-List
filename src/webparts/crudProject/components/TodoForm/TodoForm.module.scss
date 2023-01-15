@@ -1,0 +1,26 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.btnGroup {
+  padding: 10px 0px;
+  .btn {
+    border-color: #ccc;
+    font-weight: 300;
+  }
+  .btnRequest {
+    background: "blue";
+    color: #fff;
+  }
+  .btnCancel {
+    background-color: #ccc;
+    margin-left: 10px;
+  }
+}
+
+.table {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  .label {
+    padding: 1em;
+    color: "[theme:bodyText, default: #323130]";
+  }
+}

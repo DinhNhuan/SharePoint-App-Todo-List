@@ -1,0 +1,12 @@
+.layoutContainer {
+  display: flex;
+  align-items: center;
+  .sidebar {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  .article {
+    padding: 10px;
+    flex: 1;
+  }
+}

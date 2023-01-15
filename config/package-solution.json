@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-react-redux-toolkit-fluentui-client-side-solution",
+    "id": "9138cf87-b4e4-415f-9be0-251f07f92c9e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-react-redux-toolkit-fluentui description"
+      },
+      "longDescription": {
+        "default": "spfx-react-redux-toolkit-fluentui description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-react-redux-toolkit-fluentui Feature",
+        "description": "The feature that activates elements of the spfx-react-redux-toolkit-fluentui solution.",
+        "id": "1b7191fb-b708-4887-a390-0170b6a61f74",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-react-redux-toolkit-fluentui.sppkg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "crud-project-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/crudProject/CrudProjectWebPart.js",
+          "manifest": "./src/webparts/crudProject/CrudProjectWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CrudProjectWebPartStrings": "lib/webparts/crudProject/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
